@@ -1,0 +1,14 @@
+{
+    "ALBERT" : {
+        "bankName"			: "ALBERT ET FILS",
+        "HT"				: "TOTAL HT",
+		"TVA"				: "TVA",
+		"TTC"				: "TTC"
+    },
+    "Nathalie" : {
+        "bankName"			: "Nathalie BAUDOIN",
+        "HT"				: "SOUS TOTAL",
+		"TVA"				: "TVA",
+		"TTC"				: "PAYER"
+    }
+}

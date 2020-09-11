@@ -1,0 +1,30 @@
+{
+    "ALBERT" : {
+        "FacturesName"		: "ALBERT ET FILS",
+        "HT"				: "TOTAL :",
+		"TVA"				: "TVA",
+        "TTC"				: "TOTAL TTC",
+        "Date"              : "Date"
+    },
+    "Nathalie" : {
+        "FacturesName"		: "Nathalie BAUDOIN",
+        "HT"				: "SOUS TOTAL",
+		"TVA"				: "TVA",
+        "TTC"				: "À PAYER",
+        "Date"              :   "fait le"
+    },
+    "DAUPHINS" : {
+        "FacturesName"		: "SCI DES DAUPHINS",
+        "HT"				: "Total HT",
+		"TVA"				: "TVA",
+        "TTC"				: "Total TTC",
+        "Date"              :   "payable le"
+    },
+    "tills" : {
+        "FacturesName"		: "tills",
+        "HT"				: "TOTAL HT",
+		"TVA"				: "T.V.A",
+        "TTC"				: "TOTAL |",
+        "Date"              :   "DATE :"
+    }
+}

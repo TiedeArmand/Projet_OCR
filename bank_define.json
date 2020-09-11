@@ -1,0 +1,80 @@
+{
+    "bnp" : {
+        "bankName"			: "BNP PARIBAS",
+        "dateComptable"		: "/^\\d\\d\\.{0,1},{0,1}\\d\\d\\.{0,1},{0,1}\\d\\d$/i",
+		"dateValeur"		: "/^\\d\\d\\.{0,1},{0,1}\\d\\d\\.{0,1},{0,1}\\d\\d$/i",
+		"IBAN"				: "IBAN",
+		"customerName"		: "Raison sociale",
+		"breakPage"			: "BNP",
+		"soustotal"			: "Sous total...",
+		"totaldes"			: "TOTAL DES",
+		"title_table"		: ["DATE COMPTABLE", "NATURE DES OPERATION", "DATE DE VALUEUR", "DEBIT", "CREDIT"],
+		"pattern_splitTotalDes" : "/^\\d{1,3},\\d{1,3}$/i",
+		"ptn_currency"		: "/^\\d{1,3},\\d{1,3}$/i"
+    },
+    "LCL" : {
+        "bankName"			: "LCL",
+        "dateComptable"		: "/^\\d\\d\\.\\d\\d$/i",
+		"dateValeur"		: "/^\\d\\d\\.\\d\\d\\.\\d\\d$/i",
+		"IBAN"				: "IBAN",
+		"customerName"		: "du compte",
+		"breakPage"			: "Page",
+		"soustotal"			: "SOLDE INTERMEDIAIRE",
+		"totaldes"			: "TOTAUX ",
+		"title_table"		: ["DATE", "LIBELLE", "VALEUR", "DEBIT", "CREDIT"],
+		"pattern_splitTotalDes" : "/((\\D+ )*)((\\d{1,3} )*\\d{1,3},\\d{1,3})/i",
+		"ptn_currency"		: "/^\\d{1,3},\\d{1,3}$/i"
+    },
+	"societegenerale" : {
+        "bankName"			: "Societe Generale",
+		"dateComptable"		: "/^\\d\\d\\/\\d\\d\\/\\d\\d\\d\\d$/i",
+		"dateValeur"		: "/^\\d\\d\\/\\d\\d\\/\\d\\d\\d\\d$/i",
+		"IBAN"				: "IBAN",
+		"customerName"		: "du compte",
+		"breakPage"			: " ",
+		"soustotal"			: " ",
+		"totaldes"			: "TOTAUX DES",
+		"title_table"		: ["date", "valeur", "nature de l'opération", "débit", "crédit"],
+		"pattern_splitTotalDes" : "/^(\\d{1,3}\\.)*\\d{1,3},\\d{2}$/i",
+		"ptn_currency"		: "/^(\\d{1,3}\\.)*\\d{1,3},\\d{2}\\*{0,1}$/i"
+    },
+	"cic" : {
+        "bankName"			: "Crédit Industriel et Commercial",
+        "dateComptable"		: "/^\\d\\d\\/\\d\\d\\/\\d\\d\\d\\d$/i",
+		"dateValeur"		: "/^\\d\\d\\/\\d\\d\\/\\d\\d\\d\\d$/i",
+		"IBAN"				: "IBAN",
+		"customerName"		: "Agence /^\\d+$/i",
+		"breakPage"			: "(GE)",
+		"soustotal"			: " ",
+		"totaldes"			: "Total des",
+		"title_table"		: ["date", "date valeur", "opération", "débit euros", "crédit euros"],
+		"pattern_splitTotalDes" : "/^(\\d{1,3}\\.)*\\d{1,3},\\d{1,3}$/i",
+		"ptn_currency"		: "/^(\\d{1,3}\\.)*\\d{1,3},\\d{1,3}$/i"
+	},
+	"www.bred.fr" : {
+        "bankName"			: "BRED BANQUE POPULAIRE",
+        "dateComptable"		: "/^(0[1-9]|[1-2][0-9]|3[01])\\.?(0[1-9]|1[0-2])$/i",
+		"dateValeur"		: "/^(0[1-9]|[1-2][0-9]|3[01])\\.(0[1-9]|1[0-2])\\.\\d\\d$/i",
+		"IBAN"				: "IBAN",
+		"customerName"		: "BRED Direct",
+		"breakPage"			: "Information réglementaire",
+		"soustotal"			: "Nouveau solde",
+		"totaldes"			: "Total des",
+		"title_table"		: ["date", "référence", "débit", "crédit","valeur"],
+		"pattern_splitTotalDes" : "/(\\d{1,3}\\.)*\\d{1,3},\\d{1,3}/i",
+		"ptn_currency"		: "/(\\d{1,3}\\.)*\\d{1,3},\\d{1,3}/i"
+    },
+	"www.caisse-epargne.fr" : {
+        "bankName"			: "CAISSE D'EPARGNE",
+        "dateComptable"		: "/^([0-2][0-9]|3[0-1])\\/(0[1-9]|1[0-2])$/",
+		"dateValeur"		: "/^([0-2][0-9]|3[0-1])\\/(0[1-9]|1[0-2])$/",
+		"IBAN"				: "IBAN",
+		"customerName"		: "COMPTE COURANT",
+		"breakPage"			: "Caisse d'Epargne",
+		"soustotal"			: "SOLDE PRECEDENT",
+		"totaldes"			: "NOUVEAU SOLDE",
+		"title_table"		: ["date", "valeur", "Détail des opérations", "débit", "crédit"],
+		"pattern_splitTotalDes" : "/(\\d{1,3}\\.)*\\d{1,3},\\d{1,3}/i",
+		"ptn_currency"		: "/(\\d{1,3}\\.)*\\d{1,3},\\d{1,3}/i"
+    }
+}
